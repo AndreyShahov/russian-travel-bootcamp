@@ -1,4 +1,6 @@
 .place {
+  width: 100%;
   display: grid;
-  grid-template:  repeat(2, 1fr) / repeat(2, 1fr);
+  grid-template:  repeat(2, max-content) / max-content 1fr;
+  gap: 48px 40px;
 }
