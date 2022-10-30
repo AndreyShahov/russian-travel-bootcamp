@@ -1,0 +1,4 @@
+.place {
+  display: grid;
+  grid-template:  repeat(2, 1fr) / repeat(2, 1fr);
+}
