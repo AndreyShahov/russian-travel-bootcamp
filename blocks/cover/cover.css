@@ -5,6 +5,12 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 1024) {
+  .cover {
+  width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .cover {
     margin: 90px 0 88px;
