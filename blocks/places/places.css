@@ -19,9 +19,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .places {
     width: 100%;
     row-gap: 50px;
+   margin: auto;
   }
 }
